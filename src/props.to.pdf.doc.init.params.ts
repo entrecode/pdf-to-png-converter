@@ -27,5 +27,8 @@ export function propsToPdfDocInitParams(props?: PdfToPngOptions): pdfApiTypes.Do
     pdfDocInitParams.password =
         props?.pdfFilePassword !== undefined ? props?.pdfFilePassword : PDF_TO_PNG_OPTIONS_DEFAULTS.pdfFilePassword;
 
+    // https://github.com/mozilla/pdf.js/issues/4244#issuecomment-1232548915
+    pdfDocInitParams.standardFontDataUrl = './node_modules/pdfjs-dist/standard_fonts/';
+    
     return pdfDocInitParams;
 }
