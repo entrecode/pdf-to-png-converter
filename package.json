@@ -1,5 +1,5 @@
 {
-  "name": "pdf-to-png-converter",
+  "name": "@entrecode/pdf-to-png-converter",
   "version": "3.0.0",
   "description": "Node.js utility to convert PDF file/buffer pages to PNG files/buffers with no native dependencies.",
   "keywords": [
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dichovsky/pdf-to-png-converter.git"
+    "url": "git+https://github.com/entrecode/pdf-to-png-converter.git"
   },
   "license": "MIT",
   "author": "Igor Magdich <magdich.igor@gmail.com>",
